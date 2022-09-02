@@ -62,8 +62,12 @@ Do the following:
    HINT: look up the Number method
 */
 
-
-
+function convertString(){
+  let string = "1999";
+  parseInt(string);
+  console.log(string);
+}
+convertString();
 
 
 /*
