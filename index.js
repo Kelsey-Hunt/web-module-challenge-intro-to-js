@@ -62,12 +62,9 @@ Do the following:
    HINT: look up the Number method
 */
 
-function convertString(){
-  let string = "1999";
-  parseInt(string);
-  console.log(string);
-}
-convertString();
+let string = "1999";
+parseInt(string);
+console.log(string);
 
 
 /*
@@ -79,9 +76,11 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
+function multiply(a,b){
+  return a * b;
 }
+
+multiply(1,2);
 
 
 
